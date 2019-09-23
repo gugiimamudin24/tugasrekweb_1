@@ -1,0 +1,149 @@
+body { background-color: #240e0e;
+    
+}  
+
+
+
+#topbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    border:2px solid white;
+
+}
+
+#topnav {
+    position: relative;
+    width: 740px;
+    margin: 0 auto;
+}
+
+
+.link {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    z-index: 2;
+}
+
+.link li {
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.link li a {
+    /*hilangkan teks transform*/
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.link li.current a {
+    color: white;
+}
+
+.link li a:hover {
+    text-transform: uppercase;
+    height: 60px;
+    background-color: black;
+    color: red;
+    border:2px solid white;
+    font-family: "Times new roman";
+
+}
+
+.link li ul {
+    display: none;
+    position: absolute;
+    width: 80px;
+    background-color: blue;
+    /*background-color: #215470;*/
+    list-style: none;
+}
+
+.link li:hover ul {
+    display: block;
+    padding: 20px;
+}
+
+.link li:hover ul li {
+    line-height: 30px;
+}
+
+.link li:hover ul li a {
+    font-size: 11px;
+}
+
+
+
+h2{
+background-color: #002c4c;
+color: white;
+padding: 30px 35px;
+margin: -10px -50px;
+text-align:center;
+border-radius: 10px 10px 0 0;
+height: 15px;
+font-family: "Times New Roman";
+}
+
+.container{
+width: auto;
+height: auto;
+padding:  100px 450px ;
+font-family: Arial, sans-serif;
+
+
+}
+.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 10px solid blue;
+border-radius: 10px;
+font-family: ravie;
+float:left;
+background-color: #771468;
+margin-top:50px;
+top: 100px;
+}
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+
+}
+
+
+input[type=button]{
+font-size: 16px;
+background-color:#002c4c;
+border: 1px solid #e6e6ff;
+color: white;
+font-weight: bold;
+cursor: pointer;
+width: 35%;
+height: 20px border-radius: 5px;
+padding: 10px 0;
+outline:none;
+font-family: Arial;
+float: right;
+border-radius: 30px;
+}
+input[type=button]:hover{
+/*background: linear-gradient(#000033 5%, #000080 100%);*/
+font-family: Arial;
+
+}

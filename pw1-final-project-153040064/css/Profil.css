@@ -1,0 +1,95 @@
+*{margin: 0;
+	padding: 0;} 
+
+body{
+	background-image: url(../assets/image/dragon.jpg);
+	color: white;
+	background-size: 1365px;
+}
+
+
+table {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#topbar {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	padding:1px 0px;
+	top:0;
+	z-index: 9999;
+	background-color: black;
+	border:1px solid white;
+}
+
+#topnav {
+	position: relative;
+	width: 740px;
+	margin: 0 auto;
+}
+
+
+
+.link {
+	position: absolute;
+	list-style: none;
+	padding-top: 4px;
+	left: 100px;
+	z-index: 2;
+}
+
+.link li {
+	float: left;
+	margin: 0;
+	margin-right: 5px;
+}
+
+.link li a {
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+
+.link li.current a {
+	color: white;
+}
+
+.link li a:hover {
+	text-transform: uppercase;
+	height: 60px;
+	background-color: black;
+	color: red;
+	border:2px solid white;
+	font-family: "Times new roman";
+
+}
+
+.link li ul {
+	display: none;
+	position: absolute;
+	width: 80px;
+	background-color: blue;
+	/*background-color: #215470;*/
+	list-style: none;
+}
+
+.link li:hover ul {
+	display: block;
+	padding: 20px;
+}
+
+.link li:hover ul li {
+	line-height: 30px;
+}
+
+.link li:hover ul li a {
+	font-size: 11px;
+}

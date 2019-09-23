@@ -1,0 +1,164 @@
+body { font-family: "Times new roman";
+background-image: url(../assets/image/ucl2.jpg);
+background-size: 1350px;
+}
+
+@font-face{
+		font-family: 'NewRocker-Regular';
+		src: url('../assets/font/NewRocker-Regular.otf');
+	}
+
+#topbar {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	position: relative;
+	top:0px;
+	z-index: 9999;
+	border:2px solid white;
+
+}
+
+#topnav {
+	position: relative;
+	width: 750px;
+	margin:auto;
+}
+
+
+.link {
+	position: relative;
+	list-style: none;
+	padding-top: 2px;
+	left: 100px;
+	z-index: 2;
+}
+
+.link li {
+	float: left;
+	margin: 0px;
+}
+
+.link li a {
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.link li.current a {
+	color: white;
+}
+
+.link li a:hover {
+	text-transform: uppercase;
+	height: 60px;
+	background-color: black;
+	color: red;
+	border:2px solid white;
+	font-family: "Times new roman";
+
+}
+
+.link li ul {
+	display: none;
+	position: absolute;
+	width: 80px;
+	background-color: blue;
+	/*background-color: #215470;*/
+	list-style: none;
+}
+
+.link li:hover ul {
+	display: block;
+	padding: 20px;
+}
+
+.link li:hover ul li {
+	line-height: 30px;
+}
+
+.link li:hover ul li a {
+	font-size: 11px;
+}
+
+
+
+.social {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	right: 0;
+	top: -10px;
+}
+
+.social li {
+	display: inline;
+	margin-right: 10px;
+}
+
+.social li a {
+	text-decoration: none;
+	position: relative;
+	right: 20px;
+
+}
+
+#header h1 {text-align: center;
+			font-family: 'NewRocker-Regular';
+			color: white;
+			font-size: 50px;
+			width: 825px;
+			height: 70px;
+			margin: 80px auto 1px;
+			border-top-left-radius: 60px;
+			border-top-right-radius: 60px;
+			background-image: url(../assets/image/spiderman.jpg);
+			border-top: 1px solid white;
+			border-left: 1px solid white;
+			border-right: 1px solid white;}
+
+.konten{border: 2px solid white;
+		background-color: chocolate;
+		margin: 0px auto;
+		padding: 10px;
+		text-align: center;
+		width: 800px;
+		background-image: url(../assets/image/abstract.jpg);
+		background-size: 1300px;
+		
+
+}
+
+.foto {border-top:2px solid black;
+	   border-left: 2px solid black;
+		margin: 10px;
+		padding: 5px;
+		width: 150px;
+		height: 200px;
+		box-shadow: 10px 10px 5px black;
+		}
+
+.foto:hover{
+	box-shadow: 0px 0px 50px blue;
+	transform: scale(1.3);
+	transition: all 1s ease-in 1s;
+	border-radius: 50%;
+	border: 1px solid black;
+
+		}
+#footer{
+	 background-color: grey;
+	 color: white;
+	 width: 805px;
+	 height: 15px;
+	 text-align: center;
+	 padding: 10px;
+	 margin: 0px auto;
+	 background-image: url(../assets/image/spiderman.jpg);
+}
+
+#footer a{color: white;
+text-decoration: none;}
